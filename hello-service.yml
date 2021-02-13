@@ -17,3 +17,8 @@ eureka:
       defaultZone: ${EUREKA_URI:http://localhost:8083/eureka
       
 debug: true
+
+management:
+  endpoint:
+    features:
+      enabled: true
