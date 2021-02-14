@@ -4,6 +4,3 @@ eureka:
       defaultZone: http://localhost:8083/eureka
   instance:
     instance-id: hello-service
-
-server:
-  port: 8080
