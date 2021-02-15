@@ -7,3 +7,13 @@ eureka:
 
 server:
   port: 8081
+
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:9899
+        username: kamron
+        password: admin
+        instance:
+          name: core-service
