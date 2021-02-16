@@ -5,8 +5,8 @@ eureka:
   instance:
     instance-id: core-service
 
-server:
-  port: 8081
+#server:
+#  port: 8081
 
 spring:
   boot:
