@@ -12,7 +12,7 @@ spring:
   boot:
     admin:
       client:
-        url: http://localhost:9899
+        url: http://monitoring-service:9899
         username: kamron
         password: admin
         instance:
