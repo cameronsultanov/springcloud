@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://discovery-service:8761/eureka
   instance:
     instance-id: core-service
 
@@ -12,7 +12,7 @@ spring:
   boot:
     admin:
       client:
-        url: http://localhost:9899
+        url: http://monitoring-service:9899
         username: kamron
         password: admin
         instance:
