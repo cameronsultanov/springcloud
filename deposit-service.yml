@@ -13,4 +13,4 @@ spring:
         username: kamron
         password: admin
         instance:
-          name: core-service
+          name: deposit-service
