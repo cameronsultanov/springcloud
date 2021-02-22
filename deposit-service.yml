@@ -1,0 +1,16 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://discovery-service:8761/eureka
+  instance:
+    instance-id: http://${spring.application.name}:${server.port}
+    
+spring:
+  boot:
+    admin:
+      client:
+        url: http://monitoring-service:9899
+        username: kamron
+        password: admin
+        instance:
+          name: core-service
